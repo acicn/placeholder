@@ -1,4 +1,5 @@
 # placeholder
+
 placeholder image for projects
 
 ## Usage
@@ -9,7 +10,7 @@ placeholder image for projects
 
 **Environment Variable**
 
-* `PORT` port to listen, support multiple values with comma separators
+* `PLACEHOLDER_PORT` port to listen, support multiple values with `,` separated
 
 ## Credits
 

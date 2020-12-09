@@ -12,7 +12,7 @@ import (
 )
 
 var (
-	response        = []byte("hello, world")
+	response        = []byte("PLACEHOLDER")
 	responseType    = "text/plain"
 	responseLength  = strconv.Itoa(len(response))
 	responseHandler = http.HandlerFunc(func(rw http.ResponseWriter, request *http.Request) {
@@ -38,7 +38,7 @@ func main() {
 
 	var addrs []string
 
-	ports := strings.Split(strings.TrimSpace(os.Getenv("PORT")), ",")
+	ports := strings.Split(strings.TrimSpace(os.Getenv("PLACEHOLDER_PORT")), ",")
 	for _, port := range ports {
 		port = strings.TrimSpace(port)
 		if port != "" {
